@@ -1,0 +1,460 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashik Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- AOS CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="2511.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "gzHefujRP7otpc_QG",
+      });
+   })();
+</script>
+ <script src="script.js"></script>
+  <style>
+   
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top shadow-sm" data-aos="fade-down">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Ashikullah</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+         <li class="nav-item"><a class="nav-link" href="#competitive">Competitive Programming</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero / Home Section -->
+<header id="home" data-aos="zoom-in" data-aos-duration="1200">
+  <!-- <img src="green-trees-near-body-water-daytime_395237-20.avif" class="profile-img" alt="Profile Image" data-aos="flip-left" data-aos-delay="200"> -->
+     <img src="pic/ashik.jpg" class="profile-img" alt="Profile Image" data-aos="flip-left" data-aos-delay="200">
+  <h1 class="mt-3" data-aos="fade-up" data-aos-delay="400">Md. Ashikullah</h1>
+  <p data-aos="fade-up" data-aos-delay="600">Student of ICT, MBSTU | Web Developer</p>
+</header>
+
+<!-- About Section -->
+<section id="about" class="container my-5">
+  <h2 class="text-center mb-4" data-aos="fade-up">About Me</h2>
+  <div class="row align-items-center">
+  <div class="col-md-6" data-aos="fade-right">
+    <p>Assalamu Alaikum, welcome to my portfolio....</p>
+
+    <h3>
+        Md. <span style="color: #1e90ff; font-weight: bold;">Ashikullah</span>
+    </h3>
+
+    <p>
+        I am a student of Information and Communication Technology (ICT) at
+        Mawlana Bhashani Science and Technology University (MBSTU).
+    </p>
+
+    <p>
+        I am passionate about learning new things and continuously improving my skills.
+        I enjoy studying technology-related subjects, and at the same time,
+        I love reading Islamic books, which help me grow spiritually and intellectually.
+        I believe in combining knowledge with values to become a better human being
+        and a skilled professional.
+    </p>
+  </div>
+
+    <div class="col-md-6 text-center" data-aos="fade-left">
+      <img src="pic/ashik.jpg" class="img-fluid about-img" alt="About Image" data-aos="zoom-in" data-aos-delay="300">
+    </div>
+  </div>
+</section>
+
+                <!-- Education Section -->
+<section class="container my-5">
+  <h2 class="text-center mb-4" data-aos="fade-up">Education</h2>
+  <img src="pic/education.webp" alt="college" width="100" class="edu-icon mb-3">
+
+  <div class="row">
+    <!-- LEFT ACCORDION -->
+    <div class="col-md-4">
+      <div class="accordion" id="eduAccordion">
+        <!-- University -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="edu-head1">
+            <button class="accordion-button collapsed" type="button"
+              data-bs-toggle="collapse" data-bs-target="#edu1"
+              aria-expanded="false">
+              🎓 B.Sc(Engr.)
+            </button>
+          </h2>
+        </div>
+
+        <!-- HSC -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="edu-head2">
+            <button class="accordion-button collapsed" type="button"
+              data-bs-toggle="collapse" data-bs-target="#edu2"
+              aria-expanded="false">
+              🏫 HSC
+            </button>
+          </h2>
+        </div>
+
+        <!-- SSC -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="edu-head3">
+            <button class="accordion-button collapsed" type="button"
+              data-bs-toggle="collapse" data-bs-target="#edu3"
+              aria-expanded="false">
+              🏫 SSC
+            </button>
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE CONTENT -->
+    <div class="col-md-8">
+      <div class="accordion" id="contentAccordion">
+        <!-- B.Sc -->
+        <div id="edu1" class="accordion-collapse collapse" data-bs-parent="#contentAccordion">
+          <div class="card shadow p-4 border-start border-4 border-primary">
+            <h4>MBSTU, Tangail</h4>
+            <p><strong>B.Sc in ICT</strong></p>
+            <p>2025 - Present</p>
+            <p>Status: Ongoing</p>
+          </div>
+        </div>
+
+        <!-- HSC -->
+        <div id="edu2" class="accordion-collapse collapse" data-bs-parent="#contentAccordion">
+          <div class="card shadow p-4 border-start border-4 border-success">
+            <div class="card-body">
+              <img src="pic/hsc.jpg" alt="college" width="70" class="edu-icon mb-3">
+              <h5 class="card-title">Higher Secondary School Certificate (HSC)</h5>
+              <p><strong>Shah Mukdum College, Rajshahi</strong></p>
+              <p><b>Board:</b> Rajshahi</p>
+              <p><b>Duration:</b> 2018 - 2020</p>
+              <p><b>GPA:</b> 5.00 / 5.00</p>
+              <hr>
+              <p><b>Group:</b> Science</p>
+              <ul style="list-style:none; padding-left:0;">
+                <li>📘 Higher Mathematics</li>
+                <li>🔬 Physics</li>
+                <li>⚗️ Chemistry</li>
+                <li>🧬 Biology</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- SSC -->
+        <div id="edu3" class="accordion-collapse collapse" data-bs-parent="#contentAccordion">
+          <div class="card shadow p-4 border-start border-4 border-warning">
+            <div class="card-body">
+              <img src="https://cdn-icons-png.flaticon.com/512/201/201818.png" alt="school" width="70" class="edu-icon mb-3">
+              <h5 class="card-title">Secondary School Certificate (SSC)</h5>
+              <p><strong>Chakkitti School and College, Chakkitti</strong></p>
+              <p><b>Board:</b> Rajshahi</p>
+              <p><b>Duration:</b> 2016 - 2018</p>
+              <p><b>GPA:</b> 5.00 / 5.00</p>
+              <hr>
+              <p><b>Group:</b> Science</p>
+              <ul style="list-style:none; padding-left:0;">
+                <li>📘 Higher Mathematics</li>
+                <li>🔬 Physics</li>
+                <li>⚗️ Chemistry</li>
+                <li>🧬 Biology</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Experience Section -->
+<section id="experience" class="container my-5">
+  <h2 class="text-center mb-4" data-aos="fade-up">Experience</h2>
+  <div class="timeline">
+    <!-- <div class="event" data-aos="fade-right" data-aos-delay="100">
+      <h5>ABC Organization</h5>
+      <p><strong>Senior Developer</strong></p>
+      <p>2024 - Present</p>
+    </div>
+    <div class="event" data-aos="fade-left" data-aos-delay="200">
+      <h5>Rupali Bank PLC.</h5>
+      <p><strong>Assistant Programmer</strong></p>
+      <p>2022 - 2024</p>
+    </div>
+    <div class="event" data-aos="fade-right" data-aos-delay="300">
+      <h5>Daffodil International University</h5>
+      <p><strong>Lecturer</strong></p>
+      <p>2021 - 2022</p>
+    </div> -->
+     <div class="event" data-aos="fade-left" data-aos-delay="1500">
+      <h5>No professional experience at this time</h5>
+      <!-- <p><strong></strong></p>
+      <p>2021 - 2022</p> -->
+    </div> 
+  </div>
+</section>
+
+<!-- Skills Section -->
+<!-- Skills Section -->
+<section id="skills" class="container my-5">
+  <h2 class="text-center mb-4" data-aos="zoom-in">Skills</h2>
+
+   <div class="mb-3" data-aos="fade-up" data-aos-delay="500">
+    <label>C / C++</label>
+    <div class="progress">
+      <div class="progress-bar bg-primary" style="width: 85%;">85%</div>
+    </div>
+  </div>
+
+  <div class="mb-3" data-aos="fade-up" data-aos-delay="100">
+    <label>HTML</label>
+    <div class="progress">
+      <div class="progress-bar bg-success" style="width: 55%;">55%</div>
+    </div>
+  </div>
+
+  <div class="mb-3" data-aos="fade-up" data-aos-delay="200">
+    <label>CSS / Bootstrap</label>
+    <div class="progress">
+      <div class="progress-bar bg-info" style="width: 30%;">30%</div>
+    </div>
+  </div>
+
+  <div class="mb-3" data-aos="fade-up" data-aos-delay="300">
+    <label>Java / Spring Boot</label>
+    <div class="progress">
+      <div class="progress-bar bg-warning" style="width: 35%;">35%</div>
+    </div>
+  </div>
+
+  <div class="mb-3" data-aos="fade-up" data-aos-delay="400">
+    <label>Database Management</label>
+    <div class="progress">
+      <div class="progress-bar bg-danger" style="width: 50%;">50%</div>
+    </div>
+  </div>
+
+  <div class="mb-3" data-aos="fade-up" data-aos-delay="600">
+    <label>Competitive Programming</label>
+    <div class="progress">
+      <div class="progress-bar bg-secondary" style="width: 45%;">45%</div>
+    </div>
+  </div>
+
+</section>
+
+
+    <!-- Competitive Programming Section -->
+   <!-- Competitive Programming Section -->
+<section id="competitive" class="mt-5" data-aos="fade-up">
+  <h2 class="text-center mb-4">Competitive Programming</h2>
+  <div class="row g-4 mt-3">
+
+    <div class="col-md-6" data-aos="flip-left">
+      <div class="edu-card d-flex flex-column justify-content-center align-items-center text-center" style="background:#0052cc; height:150px;">
+        <h5>Codeforces</h5>
+        <p>Problems Solved: <strong>400+</strong></p>
+      </div>
+    </div>
+
+    <div class="col-md-6" data-aos="flip-right">
+      <div class="edu-card d-flex flex-column justify-content-center align-items-center text-center" style="background:#28a745; height:150px;">
+        <h5>Beecrowd</h5>
+        <p>Problems Solved: <strong>100+</strong></p>
+      </div>
+    </div>
+
+    <div class="col-md-6" data-aos="flip-left" data-aos-delay="100">
+      <div class="edu-card d-flex flex-column justify-content-center align-items-center text-center" style="background:#cdc6c2; height:150px;">
+        <h5>UVA</h5>
+        <p>Problems Solved: <strong>60+</strong></p>
+      </div>
+    </div>
+
+    <div class="col-md-6" data-aos="flip-right" data-aos-delay="100">
+      <div class="edu-card d-flex flex-column justify-content-center align-items-center text-center" style="background:#6f42c1; height:150px;">
+        <h5>LightOJ</h5>
+        <p>Problems Solved: <strong>40+</strong></p>
+      </div>
+    </div>
+
+    <div class="col-md-6" data-aos="flip-left" data-aos-delay="200">
+      <div class="edu-card d-flex flex-column justify-content-center align-items-center text-center" style="background:#594c39; height:150px;">
+        <h5>LeetCode</h5>
+        <p>Problems Solved: <strong>10+</strong></p>
+      </div>
+    </div>
+
+    <div class="col-md-6" data-aos="flip-right" data-aos-delay="200">
+      <div class="edu-card d-flex flex-column justify-content-center align-items-center text-center" style="background:#d63384; height:150px;">
+        <h5>CodeChef</h5>
+        <p>Problems Solved: <strong>12</strong></p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="container my-5">
+  <h2 class="text-center mb-4" data-aos="zoom-in">Projects</h2>
+
+  <div class="row g-4">
+
+    <!-- Project 1 -->
+    <div class="col-md-4" data-aos="flip-left" data-aos-delay="100">
+      <div class="card shadow h-100">
+        <img src="pic/pj1.png" class="card-img-top" alt="Online Delivery System">
+        <div class="card-body">
+          <h5 class="card-title">Online Delivery System</h5>
+          <h6>(Like: Foodpanda)</h6>
+          <p class="card-text">
+            Link:
+            <a href="https://github.com/it22030/Project_3.1" target="_blank">github-Link</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="col-md-4" data-aos="flip-up" data-aos-delay="200">
+      <div class="card shadow h-100">
+        <img src="pic/pj2.avif" class="card-img-top" alt="Flappy Bird Game">
+        <div class="card-body">
+          <h5 class="card-title">Flappy Bird Game</h5>
+          <p class="card-text">
+            Link:
+            <a href="https://github.com/it22030/Flappy_Game" target="_blank">github-Link</a>
+          </p>
+        </div>
+      </div> 
+    </div>
+
+    <!-- Project 3 -->
+    <div class="col-md-4" data-aos="flip-right" data-aos-delay="300">
+      <div class="card shadow h-100">
+        <img src="pic/pj3.png" class="card-img-top" alt="Personal Portfolio">
+        <div class="card-body">
+          <h5 class="card-title">Personal Portfolio</h5>
+          <p class="card-text">
+            <a href="https://sites.google.com/view/ashikullah/home" target="_blank">
+              Visit Website
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="col-md-4" data-aos="flip-right" data-aos-delay="400">
+      <div class="card shadow h-100">
+        <img src="pic/pj4.png" class="card-img-top" alt="Web Chat Application">
+        <div class="card-body">
+          <h5 class="card-title">Web Chat Application</h5>
+          <p class="card-text">
+            <a href="https://github.com/it22030/ChatApp/tree/main/spring-boot-websocket-chat-app-main/spring-boot-websocket-chat-app-main/src" target="_blank">
+              github-Link
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="container my-5">
+  <h2 class="text-center mb-4" data-aos="zoom-in">Contact Me</h2>
+  
+  <form class="row g-3" data-aos="fade-up" action="https://formsubmit.co/mdashikullaha@gmail.com" method="POST">
+    
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_autoresponse" 
+           value="Thanks for contacting me! 
+            I have received your message and will reply very soon.">
+
+
+    <div class="col-md-6">
+      <input type="text" name="name" placeholder="Your Name" class="form-control" required>
+    </div>
+    
+    <div class="col-md-6">
+      <input type="email" name="email" placeholder="Your Email" class="form-control" required>
+    </div>
+    
+    <div class="col-12">
+      <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
+    </div>
+    
+    <div class="col-12 text-center">
+      <button type="submit" class="btn btn-primary" data-aos="zoom-in" data-aos-delay="200">Send Message</button>
+    </div>
+
+  </form>
+</section>
+
+
+<!-- Footer -->
+<footer data-aos="fade-up">
+  <!-- <h4 style="color:#fff; font-weight:bold;">Contact Me</h4> -->
+  <p>Email: mdashikullaha@gmail.com | Phone: +880 1863273923</p>
+  <p class="mt-3 mb-0" style="font-size:14px;">© Ashik 2025</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- AOS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1200,
+    offset: 120,
+    once: true
+  });
+</script>
+
+</body>
+</html> 
